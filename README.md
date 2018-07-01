@@ -10,6 +10,9 @@ Dialogflow (formerly Api.ai, Speaktoit) is a Google-owned developer of human–c
 Dialogflow is powered by google's machine learning which handles all NLP that our chatboot require.We did not write any code for our bot.We gave just proper intent and entity so that bot will understand and process accordingly.
 
 take a screen shot of intent
+[
+![screenshot from 2018-07-01 21-55-22](https://user-images.githubusercontent.com/16374123/42136468-9f53e730-7d79-11e8-8086-e9482109d12a.png)
+](url)
 
 An  # Intent (https://dialogflow.com/docs/intents) represents a mapping between what a user says and what action should be taken by your software.
 
