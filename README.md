@@ -29,9 +29,9 @@ Intent interfaces have the following sections:
 3.Response
 4.Contexts
 
-An example of our intent.
 
-take a screen shot
+
+
 
 
 # Entities  are powerful tools used for extracting parameter values from natural language inputs. Any important data you want to get from a user's request, will have a corresponding entity.
@@ -41,7 +41,10 @@ The entities used in a particular agent will depend on the parameter values that
 
 There are 3 types of entities: system (defined by Dialogflow), developer (defined by a developer), and user (built for each individual end-user in every request) entities. Each of these can be classified as mapping (having reference values), enum (having no reference values), or composite (containing other entities with aliases and returning object type values) entities.
 
-Take a screen shot of our entity
+Check below example for entity
+
+![screenshot from 2018-07-01 22-17-14](https://user-images.githubusercontent.com/16374123/42136628-e963caf4-7d7c-11e8-9147-4ba631e2051b.png)
+![screenshot from 2018-07-01 22-18-49](https://user-images.githubusercontent.com/16374123/42136637-031c53da-7d7d-11e8-89fa-2d11cf69e50b.png)
 
 
 There are total 14 integration dialogflow can have once built(https://dialogflow.com/docs/integrations).For our demo we have integrated with facebook and dialogflow web demo.
