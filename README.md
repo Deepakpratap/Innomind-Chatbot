@@ -14,6 +14,12 @@ take a screen shot of intent
 ![screenshot from 2018-07-01 21-55-22](https://user-images.githubusercontent.com/16374123/42136468-9f53e730-7d79-11e8-8086-e9482109d12a.png)
 ](url)
 
+Here is an example of account lock intent.
+
+![screenshot from 2018-07-01 22-08-29](https://user-images.githubusercontent.com/16374123/42136565-8c496190-7d7b-11e8-9a1c-13a27e11a746.png)
+![screenshot from 2018-07-01 22-08-40](https://user-images.githubusercontent.com/16374123/42136570-9a830e8c-7d7b-11e8-909f-7d3afcbdd017.png)
+
+
 An  # Intent (https://dialogflow.com/docs/intents) represents a mapping between what a user says and what action should be taken by your software.
 
 Intent interfaces have the following sections:
