@@ -1,0 +1,2 @@
+Dialogflow (formerly Api.ai, Speaktoit) is a Google-owned developer of human–computer interaction technologies based on natural language conversations. The company is best known for creating the Assistant (by Speaktoit), a virtual buddy for Android, iOS, and Windows Phone smartphones that performs tasks and answers users' question in a natural language.[1] Speaktoit has also created a natural language processing engine that incorporates conversation context like dialogue history, location and user preferences.
+
