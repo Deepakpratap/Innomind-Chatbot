@@ -1,0 +1,54 @@
+{
+  "id": "bc042059-f900-4eca-97fa-b91c1df8bdd3",
+  "name": "flower",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "rose",
+      "synonyms": [
+        "rose",
+        "roses"
+      ]
+    },
+    {
+      "value": "tulip",
+      "synonyms": [
+        "tulip",
+        "tulips"
+      ]
+    },
+    {
+      "value": "peony",
+      "synonyms": [
+        "peony",
+        "paeony",
+        "peonies"
+      ]
+    },
+    {
+      "value": "lily",
+      "synonyms": [
+        "lily",
+        "lilies"
+      ]
+    },
+    {
+      "value": "iris",
+      "synonyms": [
+        "iris",
+        "irises"
+      ]
+    },
+    {
+      "value": "gladiolus",
+      "synonyms": [
+        "gladiolus",
+        "cornflag",
+        "sword lily",
+        "sword-grass lily",
+        "gladioli"
+      ]
+    }
+  ],
+  "isEnum": false
+}

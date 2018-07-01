@@ -1,0 +1,35 @@
+{
+  "id": "127370c5-38ae-4c0f-bbf9-cc3b3551a795",
+  "name": "no - compose-anniversary",
+  "auto": true,
+  "contexts": [
+    "no-compose",
+    "bouquet"
+  ],
+  "templates": [
+    "For anniversary",
+    "I need a bouquet for anniversary"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "compose",
+          "value": "no"
+        },
+        {
+          "name": "occasion",
+          "value": "anniversary"
+        }
+      ],
+      "speech": "Here you can choose a wonderful anniversary bouquet!"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}

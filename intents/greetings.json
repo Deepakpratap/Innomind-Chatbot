@@ -1,0 +1,24 @@
+{
+  "id": "f26fa29e-bab0-4c56-b867-02b1e6184dd9",
+  "name": "greetings",
+  "auto": true,
+  "contexts": [],
+  "templates": [
+    "Hello",
+    "Hi"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greeting",
+      "affectedContexts": [],
+      "parameters": [],
+      "speech": "Hello! Would you like to buy a bouquet?"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}

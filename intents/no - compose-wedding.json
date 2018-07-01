@@ -1,0 +1,37 @@
+{
+  "id": "56cd19af-04c1-4943-a181-43c832030e0b",
+  "name": "no - compose-wedding",
+  "auto": true,
+  "contexts": [
+    "no-compose",
+    "bouquet"
+  ],
+  "templates": [
+    "For wedding, please.",
+    "I need a bouquet for wedding.",
+    "I need a bridal bouquet."
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "wedding.bouquet",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "compose",
+          "value": "no"
+        },
+        {
+          "name": "occasion",
+          "value": "wedding"
+        }
+      ],
+      "speech": "Here you can choose a wonderful bridal bouquet!"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "3b539784-0f54-49ee-a62c-90de9b5cd31f",
+  "name": "compose",
+  "auto": true,
+  "contexts": [],
+  "templates": [
+    "I need a bouquet",
+    "I want to buy a bouquet",
+    "Yes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bouquet.compose",
+      "affectedContexts": [
+        {
+          "name": "compose",
+          "lifespan": 5
+        },
+        {
+          "name": "bouquet",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "speech": "Okay! Would you like to compose a bouquet yourself?"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}

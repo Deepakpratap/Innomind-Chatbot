@@ -1,0 +1,36 @@
+{
+  "id": "ad2d205c-22aa-44e4-b52e-f1c8cbcf8ccc",
+  "name": "no - compose-birthday",
+  "auto": true,
+  "contexts": [
+    "no-compose",
+    "bouquet"
+  ],
+  "templates": [
+    "For birthday, please.",
+    "I need a bouquet for birthday."
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "birthday.bouquet",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "compose",
+          "value": "no"
+        },
+        {
+          "name": "occasion",
+          "value": "birthday"
+        }
+      ],
+      "speech": "Here you can choose a wonderful birthday bouquet!"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}

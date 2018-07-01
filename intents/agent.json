@@ -1,0 +1,167 @@
+{
+	"OutPutQuestionsAndAnswers": [
+		{
+			"A": "S.No",
+			"B": "Question",
+			"C": "Answers"
+		},
+		{
+			"A": 1,
+			"B": "Login Page is not getting displayed",
+			"C": "Login server was down. It is up now. Please check."
+		},
+		{
+			"B": "Login Page Down"
+		},
+		{
+			"B": "Login Page not opening"
+		},
+		{
+			"B": "Login Page is not showing up."
+		},
+		{
+			"A": 2,
+			"B": "Login credetials are not working.",
+			"C": "Go to URL : password.reset.com, Enter you login id, enter password received, reset the password"
+		},
+		{
+			"B": "Forgot the password, can you please reset the password for me.",
+			"C": "Go to URL : password.reset.com, Enter you login id, enter password received, reset the password"
+		},
+		{
+			"B": "Password expired.",
+			"C": "Go to URL : password.reset.com, Enter you login id, enter password received, reset the password"
+		},
+		{
+			"B": "FW: Myspace Login Issue",
+			"C": "Go to URL : password.reset.com, Enter you login id, enter password received, reset the password"
+		},
+		{
+			"B": "Please reset mypassword.It is expired."
+		},
+		{
+			"A": 3,
+			"B": "Account got locked, because of 3 wrong attempts os password. Could you please reset the password",
+			"C": "Unlocked the account and new password is sent to your email id."
+		},
+		{
+			"B": "Account locked. Not able to login",
+			"C": "Unlocked the account and new password is sent to your email id."
+		},
+		{
+			"A": 4,
+			"B": "Create new account and share the username and password",
+			"C": "Go to URL : accountsetup.com, Enter personal details along with user id, enter OTP received, click finish. Check email for details."
+		},
+		{
+			"B": "New Account is needed for a new joinee.",
+			"C": "Go to URL : accountsetup.com, Enter personal details along with user id, enter OTP received, click finish. Check email for details."
+		},
+		{
+			"B": "New Account Creation for user Tom."
+		},
+		{
+			"A": 5,
+			"B": "Needs permission wifi access to laptop",
+			"C": "First, connect a network cable to your laptop to the red port on your workstation. Run ipconfig /all on your command prompt. Share WiFi Mac or Hardware address to the IT team. IT team then adds your MAC ID to enable WiFi access"
+		},
+		{
+			"B": "Wifi access needed.",
+			"C": "First, connect a network cable to your laptop to the red port on your workstation. Run ipconfig /all on your command prompt. Share WiFi Mac or Hardware address to the IT team. IT team then adds your MAC ID to enable WiFi access"
+		},
+		{
+			"B": "Need to connect to Wifi."
+		},
+		{
+			"B": "Unable to connect to Internet"
+		},
+		{
+			"A": 6,
+			"B": "How can I Delete Internet Cookies",
+			"C": "Microsoft Internet Explorer users can go to 'Tools' (or the little cog icon in the top left), then go to 'Safety' and choose 'Delete browsing history...', you can then choose to delete your Internet cookies. In Google Chrome, go to 'More Tools' and choose 'Clear browsing data...'. Firefox users can go to 'History', then choose 'Clear recent history...'."
+		},
+		{
+			"A": 7,
+			"B": "Not able to send and receive emails",
+			"C": "Verify that your computer is able to see the Internet and/or other computers to ensure that your computer is not encountering a connection issue, which would be causing your e-mail issue. Ensure that your Internet e-mail server or your Network e-mail server is not encountering issues by contacting either your Internet Service Provider or your Network administrator."
+		},
+		{
+			"A": 8,
+			"B": "Computer is not getting switched on",
+			"C": "First check the computer's power cord to make sure it is completely plugged into the wall socket. If you are using a plug strip, make sure it is completely plugged into the wall socket and that the power switch on the plug strip is turned on. Some plug strips also have a built in circuit breaker which usually looks like a black or red button near the power switch. Press the button to reset it and see if that solves the problem."
+		},
+		{
+			"B": "Computer not powering up"
+		},
+		{
+			"A": 9,
+			"B": "Volume Icon is not showing in right corner",
+			"C": "To place the volume icon in the system tray in the lower right of the desktop:\r\nPlace the mouse arrow on the Start button in the lower left corner.\r\nLeft mouse-click on Settings.\r\nLeft mouse-click on the Control Panel\r\nPlace the mouse arrow on the Multimedia icon . \r\n(In Windows XP, look for the Sounds and Audio Devices icon .) \r\nDouble-left mouse click.\r\nLeft mouse-click on the Audio file tab."
+		}
+	]
+}
+{ OutPutQuestionsAndAnswers:
+   [ { A: 'S.No', B: 'Question', C: 'Answers' },
+     { A: 1,
+       B: 'Login Page is not getting displayed',
+       C: 'Login server was down. It is up now. Please check.' },
+     { B: 'Login Page Down' },
+     { B: 'Login Page not opening' },
+     { B: 'Login Page is not showing up.' },
+     { A: 2,
+       B: 'Login credetials are not working.',
+       C:
+        'Go to URL : password.reset.com, Enter you login id, enter password received, reset the password' },
+     { B:
+        'Forgot the password, can you please reset the password for me.',
+       C:
+        'Go to URL : password.reset.com, Enter you login id, enter password received, reset the password' },
+     { B: 'Password expired.',
+       C:
+        'Go to URL : password.reset.com, Enter you login id, enter password received, reset the password' },
+     { B: 'FW: Myspace Login Issue',
+       C:
+        'Go to URL : password.reset.com, Enter you login id, enter password received, reset the password' },
+     { B: 'Please reset mypassword.It is expired.' },
+     { A: 3,
+       B:
+        'Account got locked, because of 3 wrong attempts os password. Could you please reset the password',
+       C:
+        'Unlocked the account and new password is sent to your email id.' },
+     { B: 'Account locked. Not able to login',
+       C:
+        'Unlocked the account and new password is sent to your email id.' },
+     { A: 4,
+       B: 'Create new account and share the username and password',
+       C:
+        'Go to URL : accountsetup.com, Enter personal details along with user id, enter OTP received, click finish. Check email for details.' },
+     { B: 'New Account is needed for a new joinee.',
+       C:
+        'Go to URL : accountsetup.com, Enter personal details along with user id, enter OTP received, click finish. Check email for details.' },
+     { B: 'New Account Creation for user Tom.' },
+     { A: 5,
+       B: 'Needs permission wifi access to laptop',
+       C:
+        'First, connect a network cable to your laptop to the red port on your workstation. Run ipconfig /all on your command prompt. Share WiFi Mac or Hardware address to the IT team. IT team then adds your MAC ID to enable WiFi access' },
+     { B: 'Wifi access needed.',
+       C:
+        'First, connect a network cable to your laptop to the red port on your workstation. Run ipconfig /all on your command prompt. Share WiFi Mac or Hardware address to the IT team. IT team then adds your MAC ID to enable WiFi access' },
+     { B: 'Need to connect to Wifi.' },
+     { B: 'Unable to connect to Internet' },
+     { A: 6,
+       B: 'How can I Delete Internet Cookies',
+       C:
+        'Microsoft Internet Explorer users can go to \'Tools\' (or the little cog icon in the top left), then go to \'Safety\' and choose \'Delete browsing history...\', you can then choose to delete your Internet cookies. In Google Chrome, go to \'More Tools\' and choose \'Clear browsing data...\'. Firefox users can go to \'History\', then choose \'Clear recent history...\'.' },
+     { A: 7,
+       B: 'Not able to send and receive emails',
+       C:
+        'Verify that your computer is able to see the Internet and/or other computers to ensure that your computer is not encountering a connection issue, which would be causing your e-mail issue. Ensure that your Internet e-mail server or your Network e-mail server is not encountering issues by contacting either your Internet Service Provider or your Network administrator.' },
+     { A: 8,
+       B: 'Computer is not getting switched on',
+       C:
+        'First check the computer\'s power cord to make sure it is completely plugged into the wall socket. If you are using a plug strip, make sure it is completely plugged into the wall socket and that the power switch on the plug strip is turned on. Some plug strips also have a built in circuit breaker which usually looks like a black or red button near the power switch. Press the button to reset it and see if that solves the problem.' },
+     { B: 'Computer not powering up' },
+     { A: 9,
+       B: 'Volume Icon is not showing in right corner',
+       C:
+        'To place the volume icon in the system tray in the lower right of the desktop:\r\nPlace the mouse arrow on the Start button in the lower left corner.\r\nLeft mouse-click on Settings.\r\nLeft mouse-click on the Control Panel\r\nPlace the mouse arrow on the Multimedia icon . \r\n(In Windows XP, look for the Sounds and Audio Devices icon .) \r\nDouble-left mouse click.\r\nLeft mouse-click on the Audio file tab.' } ] }

@@ -1,0 +1,41 @@
+{
+  "id": "b20d08e2-0b59-43d3-8e54-841f8dd24b3e",
+  "name": "yes - compose",
+  "auto": true,
+  "contexts": [
+    "compose",
+    "bouquet"
+  ],
+  "templates": [
+    "I want to make a bouquet myself.",
+    "Yes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "compose.bouquet",
+      "affectedContexts": [
+        {
+          "name": "yes-compose",
+          "lifespan": 5
+        },
+        {
+          "name": "bouquet",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "compose",
+          "value": "yes"
+        }
+      ],
+      "speech": "Alright! What kind of flowers would you like to add first?"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}

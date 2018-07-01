@@ -1,0 +1,62 @@
+{
+  "id": "d625e21a-7edc-4b0b-bca2-a80f4aca0148",
+  "name": "yes - compose-choose - add",
+  "auto": true,
+  "contexts": [
+    "compose-add",
+    "bouquet"
+  ],
+  "templates": [
+    "add @sys.number:amount-2 @sys.color:color-2 @flower:flower-2",
+    "add @sys.number:amount-2 @flower:flower-2",
+    "add some @sys.color:color-2 @flower:flower-2",
+    "@sys.number:amount-2 @sys.color:color-2 @flower:flower-2",
+    "@sys.number:amount-2 @flower:flower-2",
+    "@sys.color:color-2 @flower:flower-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "add.flowers",
+      "affectedContexts": [
+        {
+          "name": "compose-add",
+          "lifespan": 5
+        },
+        {
+          "name": "bouquet",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "amount-2",
+          "value": "$amount-2",
+          "defaultValue": ""
+        },
+        {
+          "required": false,
+          "dataType": "@sys.color",
+          "name": "color-2",
+          "value": "$color-2",
+          "defaultValue": ""
+        },
+        {
+          "required": false,
+          "dataType": "@flower",
+          "name": "flower-2",
+          "value": "$flower-2",
+          "defaultValue": ""
+        }
+      ],
+      "speech": "Okay! I add $amount-2 $color-2 $flower-2.original to your bouquet. Anything else?"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}

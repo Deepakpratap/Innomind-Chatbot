@@ -1,0 +1,35 @@
+{
+  "id": "90237e74-ddd1-44d9-99c9-2f51b47fbec3",
+  "name": "no - compose-st-valentines",
+  "auto": true,
+  "contexts": [
+    "no-compose",
+    "bouquet"
+  ],
+  "templates": [
+    "I need a bouquet for Saint Valentine\u0027s Day",
+    "For Saint Valentine\u0027s Day"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "compose",
+          "value": "no"
+        },
+        {
+          "name": "occasion",
+          "value": "saint_valentines"
+        }
+      ],
+      "speech": "Here you can choose a lovely bouquet for your sweetheart!"
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE"
+  }
+}
