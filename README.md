@@ -29,6 +29,7 @@ take a screen shot
 
 The entities used in a particular agent will depend on the parameter values that are expected to be returned as a result of the agent functioning. In other words, a developer does not need to create entities for every possible concept mentioned in the agent – only for those needed for actionable data.
 
+
 There are 3 types of entities: system (defined by Dialogflow), developer (defined by a developer), and user (built for each individual end-user in every request) entities. Each of these can be classified as mapping (having reference values), enum (having no reference values), or composite (containing other entities with aliases and returning object type values) entities.
 
 Take a screen shot of our entity
@@ -38,6 +39,17 @@ There are total 14 integration dialogflow can have once built(https://dialogflow
 
 Give screenshot for both of them.
 
-We have created a facebok page Innomindchatbot(https://www.facebook.com/InnomindChatbot-1851521798485031/?ref=bookmarks).
+We have created a facebok page Innomindchatbot(https://www.facebook.com/InnomindChatbot-1851521798485031/?ref=bookmarks).For bot creation we needed a facebook developer account and then followed some steps (like token creation,validation,creation of webhook).It is now able to interact from my account.But it is not public available to other user because facebook does not allow to do so until the bot is reviewed by its team.
+
+But it allows addition of test users to check the feature of its apps.We created a dummy account named Bruce Tyagi to test its features.Below is a link how it works.
+
+Link in youtube
+
+To check it in actio.please click below link
+
+https://bot.dialogflow.com/deb99b0d-418e-40a2-8eb6-26bdd707322e
+
+it works perfectly fine.
+
 
 
